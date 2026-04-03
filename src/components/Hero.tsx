@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center overflow-hidden bg-radial-hero"
+      className="relative min-h-[82vh] md:min-h-[88vh] flex items-center overflow-hidden bg-radial-hero"
     >
       {/* Subtle grid overlay */}
       <div className="absolute inset-0 opacity-[0.02]" style={{
@@ -16,7 +16,7 @@ export default function Hero() {
         backgroundSize: "60px 60px",
       }} />
 
-      <div className="relative mx-auto max-w-6xl px-6 lg:px-8 w-full pt-24 pb-16">
+      <div className="relative mx-auto max-w-6xl px-6 lg:px-8 w-full pt-28 pb-20 md:pt-36 md:pb-24">
         <div className="grid lg:grid-cols-5 gap-12 lg:gap-16 items-center">
           {/* Left content */}
           <div className="lg:col-span-3 space-y-8">
@@ -25,10 +25,10 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
             >
-              <p className="text-gold text-sm font-medium tracking-widest uppercase mb-4">
+              <p className="text-gold text-sm md:text-base tracking-[0.18em] uppercase font-medium mb-4">
                 Auckland, New Zealand
               </p>
-              <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.05] tracking-tight text-text-primary">
+              <h1 className="font-heading text-5xl md:text-7xl font-semibold leading-[0.95] md:leading-[1] tracking-tight text-text-primary">
                 {hero.headline.split("\n").map((line, i) => (
                   <span key={i}>
                     {i === 1 ? <span className="text-gradient-gold">{line}</span> : line}
@@ -42,7 +42,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.4 }}
-              className="text-lg sm:text-xl text-text-secondary max-w-xl leading-relaxed"
+              className="text-lg md:text-xl text-white/70 max-w-2xl leading-relaxed"
             >
               {hero.subheadline}
             </motion.p>
@@ -59,7 +59,7 @@ export default function Hero() {
                   e.preventDefault();
                   document.querySelector(hero.cta1.href)?.scrollIntoView({ behavior: "smooth" });
                 }}
-                className="inline-flex items-center gap-2 px-7 py-3.5 bg-gold text-charcoal font-semibold text-sm rounded-full hover:bg-gold-light transition-all duration-300 shadow-lg shadow-gold/20 hover:shadow-gold/30"
+                className="inline-flex items-center gap-2 px-7 py-3.5 bg-gold text-charcoal font-medium text-sm md:text-base rounded-full hover:bg-gold-light transition-all duration-300 shadow-lg shadow-gold/20 hover:shadow-gold/30"
               >
                 {hero.cta1.label}
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="ml-1">
@@ -72,7 +72,7 @@ export default function Hero() {
                   e.preventDefault();
                   document.querySelector(hero.cta2.href)?.scrollIntoView({ behavior: "smooth" });
                 }}
-                className="inline-flex items-center gap-2 px-7 py-3.5 border border-border text-text-primary font-medium text-sm rounded-full hover:border-gold/30 hover:text-gold transition-all duration-300"
+                className="inline-flex items-center gap-2 px-7 py-3.5 border border-border text-text-primary font-medium text-sm md:text-base rounded-full hover:border-gold/30 hover:text-gold transition-all duration-300"
               >
                 {hero.cta2.label}
               </a>
@@ -91,10 +91,10 @@ export default function Hero() {
                 { value: "6+", label: "Industries" },
               ].map((stat) => (
                 <div key={stat.label}>
-                  <div className="text-2xl font-bold font-heading text-gold">
+                  <div className="text-2xl font-semibold font-heading text-gold">
                     {stat.value}
                   </div>
-                  <div className="text-xs text-text-muted mt-1">{stat.label}</div>
+                  <div className="text-xs text-white/45 mt-1">{stat.label}</div>
                 </div>
               ))}
             </motion.div>
@@ -136,7 +136,7 @@ export default function Hero() {
         transition={{ delay: 1.2 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <span className="text-xs text-text-muted tracking-widest uppercase">Scroll</span>
+        <span className="text-xs text-white/45 tracking-widest uppercase">Scroll</span>
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ repeat: Infinity, duration: 1.8, ease: "easeInOut" }}

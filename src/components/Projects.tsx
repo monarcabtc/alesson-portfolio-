@@ -47,7 +47,7 @@ function ProjectCard({
         ) : (
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="w-48 h-32 rounded-lg border border-border bg-charcoal/80 flex items-center justify-center group-hover:scale-105 transition-transform duration-500">
-              <span className="font-heading text-sm font-semibold text-text-muted/40">
+              <span className="font-heading text-sm font-semibold text-white/25">
                 {project.title}
               </span>
             </div>
@@ -57,13 +57,13 @@ function ProjectCard({
 
       {/* Content */}
       <div className="p-6 sm:p-8 space-y-4">
-        <h3 className="font-heading text-xl font-semibold text-text-primary group-hover:text-gold transition-colors duration-300">
+        <h3 className="font-heading text-xl md:text-2xl font-semibold tracking-tight text-text-primary group-hover:text-gold transition-colors duration-300">
           {project.title}
         </h3>
-        <p className="text-text-secondary text-sm leading-relaxed">
+        <p className="text-white/65 text-sm md:text-base leading-relaxed">
           {project.description}
         </p>
-        <p className="text-text-muted text-xs italic leading-relaxed">
+        <p className="text-white/45 text-sm md:text-base italic leading-relaxed">
           {project.highlight}
         </p>
 
@@ -72,18 +72,11 @@ function ProjectCard({
           {project.tags.map((tag) => (
             <span
               key={tag}
-              className="text-xs px-3 py-1 rounded-full bg-charcoal-lighter border border-border text-text-secondary"
+              className="text-xs md:text-sm px-3 py-1 rounded-full bg-charcoal-lighter border border-border text-white/65"
             >
               {tag}
             </span>
           ))}
-        </div>
-
-        {/* Role */}
-        <div className="pt-2 border-t border-border">
-          <p className="text-xs text-text-muted">
-            <span className="text-gold/70">Role:</span> {project.role}
-          </p>
         </div>
       </div>
     </motion.div>
@@ -94,28 +87,28 @@ export default function Projects() {
   const { ref, isInView } = useScrollAnimation();
 
   return (
-    <section id="projects" className="relative py-24 sm:py-32 bg-radial-subtle">
-      <div className="section-divider mx-auto max-w-6xl mb-24" />
+    <section id="projects" className="relative py-[72px] md:py-24 bg-radial-subtle">
+      <div className="section-divider mx-auto max-w-6xl mb-10 md:mb-12" />
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
-          className="text-center mb-16"
+          className="text-center mb-8 md:mb-10"
         >
-          <p className="text-gold text-sm font-medium tracking-widest uppercase mb-4">
+          <p className="text-gold text-sm md:text-base tracking-[0.18em] uppercase font-medium mb-4">
             Projects
           </p>
-          <h2 className="font-heading text-3xl sm:text-4xl font-bold tracking-tight mb-4">
+          <h2 className="font-heading text-4xl md:text-5xl font-semibold tracking-tight leading-tight mb-6">
             Selected Work
           </h2>
-          <p className="text-text-secondary max-w-2xl mx-auto">
+          <p className="text-base md:text-lg text-white/70 leading-relaxed max-w-3xl mx-auto mb-10">
             Real-world delivery and concept projects that demonstrate product thinking, UX sensibility, and modern digital problem-solving.
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-5 md:gap-6">
           {projects.map((project, i) => (
             <ProjectCard key={project.title} project={project} index={i} />
           ))}

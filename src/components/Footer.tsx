@@ -11,9 +11,9 @@ export default function Footer() {
             {profile.firstName}
             <span className="text-gold">.</span>
           </span>
-          <span className="text-text-muted text-xs">{footer.copyright}</span>
+          <span className="text-white/45 text-xs md:text-sm">{footer.copyright}</span>
         </div>
-        <p className="text-text-muted text-xs">{footer.note}</p>
+        <p className="text-white/45 text-xs md:text-sm">{footer.note}</p>
       </div>
     </footer>
   );

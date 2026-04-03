@@ -8,21 +8,21 @@ export default function About() {
   const { ref, isInView } = useScrollAnimation();
 
   return (
-    <section id="about" className="relative py-24 sm:py-32">
-      <div className="section-divider mx-auto max-w-6xl mb-24" />
+    <section id="about" className="relative py-16 md:py-20">
+      <div className="section-divider mx-auto max-w-6xl mb-10 md:mb-12" />
       <div className="mx-auto max-w-6xl px-6 lg:px-8" ref={ref}>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
         >
-          <p className="text-gold text-sm font-medium tracking-widest uppercase mb-4">About</p>
-          <h2 className="font-heading text-3xl sm:text-4xl font-bold tracking-tight mb-12">
+          <p className="text-gold text-sm md:text-base tracking-[0.18em] uppercase font-medium mb-4">About</p>
+          <h2 className="font-heading text-4xl md:text-5xl font-semibold tracking-tight leading-tight mb-6">
             Who I Am
           </h2>
         </motion.div>
 
-        <div className="grid lg:grid-cols-3 gap-12 lg:gap-16">
+        <div className="grid lg:grid-cols-3 gap-8 lg:gap-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -30,7 +30,7 @@ export default function About() {
             className="lg:col-span-2 space-y-6"
           >
             {about.paragraphs.map((p, i) => (
-              <p key={i} className="text-text-secondary leading-relaxed text-base sm:text-lg">
+              <p key={i} className="text-white/70 leading-relaxed text-base md:text-lg">
                 {p}
               </p>
             ))}
@@ -44,14 +44,14 @@ export default function About() {
           >
             {/* Education */}
             <div>
-              <h3 className="text-sm font-medium text-gold tracking-widest uppercase mb-4">
+              <h3 className="text-sm md:text-base font-medium text-gold tracking-[0.18em] uppercase mb-4">
                 Education
               </h3>
               <div className="space-y-4">
                 {education.map((edu, i) => (
                   <div key={i}>
-                    <p className="text-text-primary font-medium text-sm">{edu.degree}</p>
-                    <p className="text-text-muted text-sm">
+                    <p className="text-text-primary font-medium text-sm md:text-base">{edu.degree}</p>
+                    <p className="text-white/45 text-sm md:text-base">
                       {edu.institution} · {edu.year}
                     </p>
                   </div>
@@ -61,10 +61,10 @@ export default function About() {
 
             {/* Quick facts */}
             <div>
-              <h3 className="text-sm font-medium text-gold tracking-widest uppercase mb-4">
+              <h3 className="text-sm md:text-base font-medium text-gold tracking-[0.18em] uppercase mb-4">
                 At a Glance
               </h3>
-              <ul className="space-y-2 text-sm text-text-secondary">
+              <ul className="space-y-2 text-sm md:text-base text-white/70">
                 <li className="flex items-start gap-2">
                   <span className="text-gold mt-1.5 text-[8px]">&#9670;</span>
                   International career across NZ, Australia, France & global

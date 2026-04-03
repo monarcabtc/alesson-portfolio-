@@ -41,7 +41,7 @@ export default function Navbar() {
             e.preventDefault();
             handleNavClick("#hero");
           }}
-          className="font-heading text-lg font-semibold tracking-tight text-text-primary hover:text-gold transition-colors duration-300"
+          className="font-heading text-lg md:text-xl font-semibold tracking-tight text-text-primary hover:text-gold transition-colors duration-300"
         >
           {profile.firstName}
           <span className="text-gold">.</span>
@@ -61,7 +61,7 @@ export default function Navbar() {
                   handleNavClick(link.href);
                 }}
                 className={`relative text-sm font-medium transition-colors duration-300 ${
-                  isActive ? "text-gold" : "text-text-secondary hover:text-text-primary"
+                  isActive ? "text-gold" : "text-white/70 hover:text-text-primary"
                 }`}
               >
                 {link.label}
@@ -127,7 +127,7 @@ export default function Navbar() {
                     e.preventDefault();
                     handleNavClick(link.href);
                   }}
-                  className="text-base text-text-secondary hover:text-gold transition-colors"
+                  className="text-base text-white/70 hover:text-gold transition-colors"
                 >
                   {link.label}
                 </a>

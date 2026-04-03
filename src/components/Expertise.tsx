@@ -36,24 +36,24 @@ export default function Expertise() {
   const { ref, isInView } = useScrollAnimation();
 
   return (
-    <section className="relative py-24 sm:py-32">
-      <div className="section-divider mx-auto max-w-6xl mb-24" />
+    <section className="relative py-16 md:py-20">
+      <div className="section-divider mx-auto max-w-6xl mb-10 md:mb-12" />
       <div className="mx-auto max-w-6xl px-6 lg:px-8" ref={ref}>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
-          className="text-center mb-16"
+          className="text-center mb-8 md:mb-10"
         >
-          <p className="text-gold text-sm font-medium tracking-widest uppercase mb-4">
+          <p className="text-gold text-sm md:text-base tracking-[0.18em] uppercase font-medium mb-4">
             What I Do
           </p>
-          <h2 className="font-heading text-3xl sm:text-4xl font-bold tracking-tight">
+          <h2 className="font-heading text-4xl md:text-5xl font-semibold tracking-tight leading-tight mb-6">
             Core Expertise
           </h2>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 gap-5 md:gap-6">
           {expertise.map((item, i) => (
             <motion.div
               key={item.title}
@@ -63,10 +63,10 @@ export default function Expertise() {
               className="group relative p-8 rounded-2xl bg-surface border border-border hover:border-border-gold transition-all duration-500 hover:shadow-lg hover:shadow-gold/5"
             >
               <div className="text-gold mb-5">{icons[item.icon]}</div>
-              <h3 className="font-heading text-lg font-semibold mb-3 text-text-primary group-hover:text-gold transition-colors duration-300">
+              <h3 className="font-heading text-xl md:text-2xl font-semibold tracking-tight mb-3 text-text-primary group-hover:text-gold transition-colors duration-300">
                 {item.title}
               </h3>
-              <p className="text-text-secondary text-sm leading-relaxed">
+              <p className="text-white/65 text-sm md:text-base leading-relaxed">
                 {item.description}
               </p>
             </motion.div>

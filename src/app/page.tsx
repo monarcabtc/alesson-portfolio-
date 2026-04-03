@@ -1,5 +1,6 @@
 "use client";
 
+import AppShell from "@/components/AppShell";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import BigStatement from "@/components/BigStatement";
@@ -16,7 +17,7 @@ import ScrollProgress from "@/components/ScrollProgress";
 
 export default function Home() {
   return (
-    <>
+    <AppShell>
       <ScrollProgress />
       <Navbar />
       <main>
@@ -32,6 +33,6 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </AppShell>
   );
 }
