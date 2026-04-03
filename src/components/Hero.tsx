@@ -59,7 +59,7 @@ export default function Hero() {
                   e.preventDefault();
                   document.querySelector(hero.cta1.href)?.scrollIntoView({ behavior: "smooth" });
                 }}
-                className="inline-flex items-center gap-2 px-7 py-3.5 bg-gold text-charcoal font-medium text-sm md:text-base rounded-full hover:bg-gold-light transition-all duration-300 shadow-lg shadow-gold/20 hover:shadow-gold/30"
+                className="inline-flex items-center gap-2 px-7 py-3.5 bg-gold text-charcoal font-medium text-sm md:text-base rounded-full hover:bg-gold-light transition-all duration-300 shadow-lg shadow-gold/20 hover:shadow-gold/30 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
               >
                 {hero.cta1.label}
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="ml-1">
@@ -72,7 +72,7 @@ export default function Hero() {
                   e.preventDefault();
                   document.querySelector(hero.cta2.href)?.scrollIntoView({ behavior: "smooth" });
                 }}
-                className="inline-flex items-center gap-2 px-7 py-3.5 border border-border text-text-primary font-medium text-sm md:text-base rounded-full hover:border-gold/30 hover:text-gold transition-all duration-300"
+                className="inline-flex items-center gap-2 px-7 py-3.5 border border-border text-text-primary font-medium text-sm md:text-base rounded-full hover:border-gold/30 hover:text-gold transition-all duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
               >
                 {hero.cta2.label}
               </a>
@@ -111,7 +111,7 @@ export default function Hero() {
               {/* Portrait container */}
               <div className="absolute inset-0 rounded-2xl bg-charcoal-light border border-border overflow-hidden">
                 <Image
-                  src="/maphoto.png"
+                  src="/maphoto.jpg"
                   alt={`Portrait of ${profile.name}`}
                   fill
                   className="object-cover object-top"

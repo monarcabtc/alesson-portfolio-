@@ -41,7 +41,7 @@ export default function Contact() {
           {/* Email */}
           <a
             href={emailHref}
-            className="group flex items-center gap-3 text-white/70 hover:text-gold transition-colors duration-300"
+            className="group flex items-center gap-3 text-white/70 hover:text-gold transition-colors duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold rounded"
           >
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0">
               <rect x="2" y="4" width="20" height="16" rx="2" />

@@ -1,9 +1,45 @@
 "use client";
 
+import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { projects } from "@/data/content";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+
+function LazyVideo({ src, className }: { src: string; className: string }) {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [shouldLoad, setShouldLoad] = useState(false);
+
+  useEffect(() => {
+    const el = videoRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setShouldLoad(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "200px" }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <video
+      ref={videoRef}
+      src={shouldLoad ? src : undefined}
+      autoPlay
+      muted
+      loop
+      playsInline
+      preload="none"
+      aria-label="Project demo video"
+      className={className}
+    />
+  );
+}
 
 function ProjectCard({
   project,
@@ -28,12 +64,8 @@ function ProjectCard({
       <div className="relative h-48 sm:h-56 bg-charcoal-lighter overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-gold/5 via-transparent to-transparent z-10 pointer-events-none" />
         {hasVideo ? (
-          <video
+          <LazyVideo
             src={project.video as string}
-            autoPlay
-            muted
-            loop
-            playsInline
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
           />
         ) : hasImage ? (

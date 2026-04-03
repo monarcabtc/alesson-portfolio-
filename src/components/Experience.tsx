@@ -22,9 +22,9 @@ function ExperienceCard({
       className="relative pl-8 pb-8 last:pb-0 group"
     >
       {/* Timeline line */}
-      <div className="absolute left-0 top-2 bottom-0 w-px bg-border group-last:bg-gradient-to-b group-last:from-border group-last:to-transparent" />
+      <div aria-hidden="true" className="absolute left-0 top-2 bottom-0 w-px bg-border group-last:bg-gradient-to-b group-last:from-border group-last:to-transparent" />
       {/* Timeline dot */}
-      <div className="absolute left-[-4px] top-2 w-[9px] h-[9px] rounded-full border-2 border-gold bg-charcoal" />
+      <div aria-hidden="true" className="absolute left-[-4px] top-2 w-[9px] h-[9px] rounded-full border-2 border-gold bg-charcoal" />
 
       <div className="space-y-3">
         <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">

@@ -41,7 +41,7 @@ export default function Navbar() {
             e.preventDefault();
             handleNavClick("#hero");
           }}
-          className="font-heading text-lg md:text-xl font-semibold tracking-tight text-text-primary hover:text-gold transition-colors duration-300"
+          className="font-heading text-lg md:text-xl font-semibold tracking-tight text-text-primary hover:text-gold transition-colors duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold rounded"
         >
           {profile.firstName}
           <span className="text-gold">.</span>
@@ -60,7 +60,7 @@ export default function Navbar() {
                   e.preventDefault();
                   handleNavClick(link.href);
                 }}
-                className={`relative text-sm font-medium transition-colors duration-300 ${
+                className={`relative text-sm font-medium transition-colors duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold rounded ${
                   isActive ? "text-gold" : "text-white/70 hover:text-text-primary"
                 }`}
               >
@@ -81,7 +81,7 @@ export default function Navbar() {
               e.preventDefault();
               handleNavClick("#resume");
             }}
-            className="text-sm font-medium px-4 py-2 rounded-full border border-gold/30 text-gold hover:bg-gold/10 transition-all duration-300"
+            className="text-sm font-medium px-4 py-2 rounded-full border border-gold/30 text-gold hover:bg-gold/10 transition-all duration-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
           >
             Resume
           </a>
@@ -90,7 +90,7 @@ export default function Navbar() {
         {/* Mobile hamburger */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden flex flex-col gap-1.5 p-2"
+          className="md:hidden flex flex-col gap-1.5 p-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold rounded"
           aria-label="Toggle menu"
         >
           <motion.span
@@ -112,6 +112,7 @@ export default function Navbar() {
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
+            key="mobile-menu"
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}

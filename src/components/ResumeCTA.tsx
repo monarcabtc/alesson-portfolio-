@@ -27,7 +27,7 @@ export default function ResumeCTA() {
             <a
               href={profile.resumeFile}
               download
-              className="inline-flex items-center gap-3 px-8 py-4 bg-gold text-charcoal font-medium rounded-full hover:bg-gold-light transition-all duration-300 shadow-lg shadow-gold/20 hover:shadow-gold/30 text-sm md:text-base"
+              className="inline-flex items-center gap-3 px-8 py-4 bg-gold text-charcoal font-medium rounded-full hover:bg-gold-light transition-all duration-300 shadow-lg shadow-gold/20 hover:shadow-gold/30 text-sm md:text-base focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
             >
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
