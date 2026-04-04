@@ -112,7 +112,7 @@ export default function Hero() {
               <div className="absolute inset-0 rounded-2xl bg-charcoal-light border border-border overflow-hidden">
                 <Image
                   src="/maphoto.jpg"
-                  alt={`Portrait of ${profile.name}`}
+                  alt={`${profile.name}, AEM and digital content specialist based in Auckland, New Zealand`}
                   fill
                   className="object-cover object-top"
                   priority

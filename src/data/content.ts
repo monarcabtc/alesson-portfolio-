@@ -5,9 +5,9 @@
 // ============================================================
 
 export const siteConfig = {
-  title: "Alesson Souza — Digital Product & Transformation Leader",
+  title: "Alesson Souza | AEM & Digital Content Specialist",
   description:
-    "Senior digital professional specialising in product management, digital transformation, and cross-functional delivery. 15+ years across FMCG, insurance, consumer tech, government, and financial services.",
+    "Adobe Experience Manager specialist and Drupal to AEM migration expert. 15+ years delivering digital content platforms across New Zealand and globally. Available remote.",
   url: "https://alessonsouza.com",
   ogImage: "/og-image.jpg",
 };

@@ -8,7 +8,7 @@ export default function Languages() {
   const { ref, isInView } = useScrollAnimation();
 
   return (
-    <section className="relative py-16 md:py-20">
+    <section id="languages" aria-label="Languages" className="relative py-16 md:py-20">
       <div className="section-divider mx-auto max-w-6xl mb-10 md:mb-12" />
       <div className="mx-auto max-w-6xl px-6 lg:px-8" ref={ref}>
         <motion.div

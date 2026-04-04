@@ -8,7 +8,7 @@ export default function BigStatement() {
   const { ref, isInView } = useScrollAnimation({ margin: "-20%" });
 
   return (
-    <section className="relative py-16 md:py-20 overflow-hidden bg-radial-subtle">
+    <section aria-label="Mission statement" className="relative py-16 md:py-20 overflow-hidden bg-radial-subtle">
       <div className="mx-auto max-w-5xl px-6 lg:px-8 text-center" ref={ref}>
         <motion.h2
           initial={{ opacity: 0, y: 40 }}

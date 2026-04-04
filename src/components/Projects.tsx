@@ -71,7 +71,7 @@ function ProjectCard({
         ) : hasImage ? (
           <Image
             src={project.image as string}
-            alt={project.title}
+            alt={`${project.title} — project screenshot`}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-700"
             sizes="(max-width: 768px) 100vw, 50vw"
