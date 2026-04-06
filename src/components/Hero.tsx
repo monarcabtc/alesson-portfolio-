@@ -107,7 +107,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="lg:col-span-2 flex justify-center lg:justify-end"
           >
-            <div className="relative w-72 h-80 sm:w-80 sm:h-96 lg:w-full lg:h-[480px]">
+            <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-[280px] lg:h-[280px]">
               {/* Portrait container */}
               <div className="absolute inset-0 rounded-2xl bg-charcoal-light border border-border overflow-hidden">
                 <Image
@@ -116,7 +116,7 @@ export default function Hero() {
                   fill
                   className="object-cover object-top"
                   priority
-                  sizes="(max-width: 768px) 320px, (max-width: 1024px) 320px, 400px"
+                  sizes="(max-width: 768px) 256px, (max-width: 1024px) 288px, 280px"
                 />
                 {/* Subtle overlay for depth */}
                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal/40 via-transparent to-transparent" />
