@@ -9,6 +9,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 function LazyVideo({ src, className }: { src: string; className: string }) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [shouldLoad, setShouldLoad] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   useEffect(() => {
     const el = videoRef.current;
@@ -20,24 +21,32 @@ function LazyVideo({ src, className }: { src: string; className: string }) {
           observer.disconnect();
         }
       },
-      { rootMargin: "200px" }
+      { rootMargin: "400px" }
     );
     observer.observe(el);
     return () => observer.disconnect();
   }, []);
 
   return (
-    <video
-      ref={videoRef}
-      src={shouldLoad ? src : undefined}
-      autoPlay
-      muted
-      loop
-      playsInline
-      preload="none"
-      aria-label="Project demo video"
-      className={className}
-    />
+    <>
+      {!isPlaying && (
+        <div className="absolute inset-0 flex items-center justify-center z-20 bg-charcoal-lighter">
+          <div className="w-6 h-6 border-2 border-gold/30 border-t-gold rounded-full animate-spin" />
+        </div>
+      )}
+      <video
+        ref={videoRef}
+        src={shouldLoad ? src : undefined}
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="none"
+        aria-label="Project demo video"
+        onPlaying={() => setIsPlaying(true)}
+        className={className}
+      />
+    </>
   );
 }
 
