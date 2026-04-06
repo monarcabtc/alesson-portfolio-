@@ -71,7 +71,7 @@ export default function About() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-gold mt-1.5 text-[8px]">&#9670;</span>
-                  7 languages — fluent in English, French & Portuguese
+                  7 languages
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-gold mt-1.5 text-[8px]">&#9670;</span>
