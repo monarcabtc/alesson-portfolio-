@@ -194,6 +194,10 @@ export const skills = {
   ],
   "Tools & Platforms": [
     "Adobe Experience Manager",
+    "SilverStripe",
+    "WordPress",
+    "Adobe Analytics",
+    "Vercel",
     "Figma",
     "Jira",
     "Confluence",
