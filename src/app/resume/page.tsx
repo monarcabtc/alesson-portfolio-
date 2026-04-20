@@ -34,9 +34,6 @@ export default function ResumePage() {
                 {profile.email.user}@{profile.email.domain}
               </a>
             </span>
-            <span>
-              <a href={profile.linkedin}>linkedin.com/in/alessonsouza</a>
-            </span>
           </div>
         </header>
 
