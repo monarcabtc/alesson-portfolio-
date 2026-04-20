@@ -34,6 +34,9 @@ export default function ResumePage() {
                 {profile.email.user}@{profile.email.domain}
               </a>
             </span>
+            <span>
+              <a href="https://www.alesson.io">alesson.io</a>
+            </span>
           </div>
         </header>
 
