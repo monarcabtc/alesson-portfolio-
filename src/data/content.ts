@@ -28,7 +28,7 @@ export const hero = {
   headline: "Senior Digital\nProject Manager",
   subheadline:
     "I deliver complex digital programmes end-to-end — from CMS migrations and AEM platforms to mobile apps — bringing clarity, cadence, and cross-functional alignment to every delivery.",
-  cta1: { label: "Download Resume", href: "#resume" },
+  cta1: { label: "Download Resume", href: "/resume" },
   cta2: { label: "See Projects", href: "#projects" },
 };
 

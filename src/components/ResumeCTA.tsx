@@ -25,8 +25,9 @@ export default function ResumeCTA() {
           </p>
           <div className="pt-4">
             <a
-              href={profile.resumeFile}
-              download
+              href="/resume"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-8 py-4 bg-gold text-charcoal font-medium rounded-full hover:bg-gold-light transition-all duration-300 shadow-lg shadow-gold/20 hover:shadow-gold/30 text-sm md:text-base focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
             >
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

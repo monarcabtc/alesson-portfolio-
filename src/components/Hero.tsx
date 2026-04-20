@@ -55,10 +55,8 @@ export default function Hero() {
             >
               <a
                 href={hero.cta1.href}
-                onClick={(e) => {
-                  e.preventDefault();
-                  document.querySelector(hero.cta1.href)?.scrollIntoView({ behavior: "smooth" });
-                }}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-7 py-3.5 bg-gold text-charcoal font-medium text-sm md:text-base rounded-full hover:bg-gold-light transition-all duration-300 shadow-lg shadow-gold/20 hover:shadow-gold/30 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
               >
                 {hero.cta1.label}
