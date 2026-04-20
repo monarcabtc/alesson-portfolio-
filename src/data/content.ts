@@ -90,7 +90,7 @@ export const experience = [
     ],
   },
   {
-    title: "Senior Product Manager",
+    title: "Digital Project Manager",
     company: "Samsung (via DDB, in-house)",
     location: "Auckland",
     period: "May 2023 – Oct 2023",
