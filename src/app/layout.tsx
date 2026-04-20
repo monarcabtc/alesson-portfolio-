@@ -39,7 +39,7 @@ export const metadata: Metadata = {
         url: siteConfig.ogImage,
         width: 1200,
         height: 630,
-        alt: "Alesson Souza — AEM & Digital Content Specialist Portfolio",
+        alt: "Alesson Souza — Senior Digital Project Manager Portfolio",
       },
     ],
   },
@@ -61,12 +61,14 @@ export const metadata: Metadata = {
     },
   },
   keywords: [
+    "Senior Digital Project Manager",
+    "Digital Project Manager New Zealand",
+    "CMS migration project manager",
+    "Mobile app project manager",
     "Adobe Experience Manager specialist",
     "AEM content migration expert",
     "Drupal to AEM migration",
-    "Digital content specialist portfolio",
-    "Digital product manager New Zealand",
-    "AEM specialist remote",
+    "Digital Project Manager remote",
   ],
 };
 
@@ -75,7 +77,7 @@ const jsonLd = {
   "@type": "Person",
   name: profile.name,
   url: siteConfig.url,
-  jobTitle: "Digital Content & AEM Specialist",
+  jobTitle: "Senior Digital Project Manager",
   description: siteConfig.description,
   email: `${profile.email.user}@${profile.email.domain}`,
   address: {
@@ -85,12 +87,13 @@ const jsonLd = {
   },
   sameAs: [profile.linkedin],
   knowsAbout: [
+    "Digital Project Management",
+    "CMS Migrations",
+    "Mobile Apps Management",
     "Adobe Experience Manager",
-    "AEM Content Migration",
     "Drupal to AEM Migration",
-    "Digital Product Management",
-    "Content Strategy",
-    "Digital Transformation",
+    "Stakeholder Management",
+    "Agile Delivery",
   ],
   alumniOf: [
     {

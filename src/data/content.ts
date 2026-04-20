@@ -5,9 +5,9 @@
 // ============================================================
 
 export const siteConfig = {
-  title: "Alesson Souza | AEM & Digital Content Specialist",
+  title: "Alesson Souza | Senior Digital Project Manager",
   description:
-    "Adobe Experience Manager specialist and Drupal to AEM migration expert. 15+ years delivering digital content platforms across New Zealand and globally. Available remote.",
+    "Senior Digital Project Manager delivering CMS migrations, AEM platforms, and mobile apps across NZ and globally. 15+ years of matrixed delivery.",
   url: "https://alessonsouza.com",
   ogImage: "/og-image.jpg",
 };
@@ -25,9 +25,9 @@ export const profile = {
 };
 
 export const hero = {
-  headline: "Digital Product &\nTransformation Leader",
+  headline: "Senior Digital\nProject Manager",
   subheadline:
-    "I turn business complexity into practical digital experiences — bridging strategy, delivery, and customer needs.",
+    "I deliver complex digital programmes end-to-end — from CMS migrations and AEM platforms to mobile apps — bringing clarity, cadence, and cross-functional alignment to every delivery.",
   cta1: { label: "Download Resume", href: "#resume" },
   cta2: { label: "See Projects", href: "#projects" },
 };
@@ -41,9 +41,9 @@ export const bigStatement = {
 export const about = {
   title: "About",
   paragraphs: [
-    "I'm a cross-functional digital professional with 15+ years working at the intersection of product thinking, content strategy, and digital delivery. I've led teams and programmes across FMCG, insurance, consumer tech, government, and financial services — in New Zealand, Australia, France, and globally.",
-    "I'm most effective where strategy and execution need to meet in the real world: shaping ambiguous business problems into clear digital solutions, aligning stakeholders across complex organisations, and delivering measurable outcomes without losing sight of customer experience.",
-    "My background spans product ownership, digital transformation, content architecture, UX thinking, and CMS platform delivery — including large-scale AEM migrations. I bring a sharp eye for design, a practical approach to AI and emerging tools, and the kind of multilingual, international perspective that helps me communicate across cultures and disciplines.",
+    "I'm a Senior Digital Project Manager with 15+ years delivering complex digital programmes across insurance, consumer tech, government, FMCG, and financial services — in New Zealand, Australia, France, and globally.",
+    "I operate at the pointy end of delivery: owning live backlogs, managing staged rollouts, coordinating matrixed stakeholders, and holding the line on scope, budget, and schedule. From enterprise CMS migrations and AEM platforms to mobile apps and global web experiences, I'm the person teams rely on to turn ambiguous programmes into predictable delivery.",
+    "My work spans end-to-end platform migrations (Drupal → AEM), global product launches (Samsung Trygalaxy across 30+ markets), CRM and e-commerce integrations (Salesforce, CS Cart), and public-sector digital delivery under WCAG 2.0 compliance. I bring strong stakeholder management, sharp communication, and the multilingual, international perspective that helps me operate across cultures and disciplines.",
     "Outside of work, I'm genuinely curious about technology — from vibe coding side projects and experimenting with AI tools, to following crypto markets and financial trading. It keeps me sharp, commercially aware, and always learning.",
   ],
 };
@@ -51,64 +51,69 @@ export const about = {
 export const expertise = [
   {
     icon: "strategy",
-    title: "Product Strategy & Ownership",
+    title: "Digital Project Management",
     description:
-      "Defining roadmaps, shaping backlogs, and making trade-off decisions that balance business value, technical feasibility, and customer impact.",
+      "Running live backlogs, staged deployments, and cross-functional delivery teams — holding the line on scope, schedule, and budget across matrixed environments.",
   },
   {
     icon: "transformation",
-    title: "Digital Transformation",
+    title: "CMS Migrations",
     description:
-      "Leading platform migrations, process redesigns, and content architecture overhauls — turning legacy complexity into modern, scalable digital experiences.",
+      "Delivering end-to-end platform migrations including Drupal → Adobe Experience Manager (AEM), maintaining governance and uptime across public-facing consumer touchpoints.",
   },
   {
     icon: "stakeholder",
-    title: "Cross-Functional Alignment",
+    title: "Mobile Apps Management",
     description:
-      "Bridging business, design, development, legal, and compliance teams — building consensus and driving delivery in matrixed environments.",
+      "Managing mobile product delivery across design, engineering, and QA — coordinating release cycles, app-store submissions, and cross-platform rollouts.",
   },
   {
     icon: "ai",
-    title: "AI & Rapid Prototyping",
+    title: "Stakeholder & Vendor Management",
     description:
-      "Applying practical AI thinking and modern prototyping tools to test ideas fast, validate concepts early, and accelerate product development.",
+      "Bridging marketing, legal, compliance, engineering, and external agencies — driving alignment without direct line authority across complex programmes.",
   },
 ];
 
 export const experience = [
   {
-    title: "Senior Digital Product Content Manager",
+    title: "Senior Digital Product Content Manager (AEM)",
     company: "IAG New Zealand",
     location: "Auckland",
     period: "Jan 2024 – Jan 2025",
     bullets: [
-      "Led digital performance and content delivery across all IAG consumer brands in NZ and Australia — managing a live backlog, staged deployment schedules, and cross-functional delivery teams.",
-      "Drove cross-team alignment across marketing, compliance, legal, and development in a matrixed environment, influencing without direct line authority.",
-      "Oversaw CMS platform migration to Adobe Experience Manager (AEM), maintaining performance and governance continuity across all public-facing consumer touchpoints throughout.",
+      "Led end-to-end delivery of a full CMS platform migration — Drupal to Adobe Experience Manager (AEM) — across all IAG brands in New Zealand and Australia.",
+      "Proactively identified and mitigated risks across content migration, WCAG 2.0 compliance, and accessibility, maintaining delivery quality throughout.",
+      "Managed multiple competing stakeholder groups (marketing, compliance, legal, development) in a matrixed environment with limited direct authority — relied on influence and clear communication to drive alignment.",
+      "Owned and prioritised a live digital backlog in Jira, maintaining consistent delivery cadence under tight timelines and staged deployment schedules.",
+      "Operated at the pointy end of delivery, balancing platform governance, escalation management, and day-to-day production across public-facing sites.",
     ],
   },
   {
-    title: "Senior Product Manager — Global Digital Marketing",
-    company: "Samsung",
+    title: "Senior Product Manager",
+    company: "Samsung (via DDB, in-house)",
     location: "Auckland",
     period: "May 2023 – Oct 2023",
     bullets: [
-      "Managed always-on B2C digital performance across SEO, paid media, social, and content channels for Trygalaxy.com — Samsung's flagship global web experience across 30+ country markets.",
-      "Led CRO sprints using funnel analysis and user insight to improve conversion; defined KPI dashboards to track and report performance to senior stakeholders.",
-      "Delivered 490,000+ daily visitors and 23 million+ total visits, demonstrating strong commercial reach and engagement at scale.",
-      "Managed geo-personalised user journeys and product onboarding flows, improving engagement and post-visit conversion metrics.",
+      "Oversaw global delivery of Trygalaxy.com, Samsung's flagship web experience — managing 30+ country-specific versions with tight timelines and complex stakeholder dependencies.",
+      "Delivered staged rollout with 90+ localised versions, achieving 490,000+ daily visitors and over 23 million total visits since launch.",
+      "Coordinated API integrations (analytics, CRM, localisation platforms) and managed external vendor performance and deliverables.",
+      "Managed workflows and handoffs across designers, developers, and content teams using Jira and Confluence to maintain clarity and cadence across squads.",
+      "Ran internal stand-ups and cross-team WIP meetings; monitored dependencies and actively managed delivery risks across concurrent workstreams.",
+      "Developed detailed project plans, timelines, and risk registers — monitoring dependencies across country markets and external vendor deliverables.",
+      "Defined KPI dashboards; drove continuous CRO through funnel analysis and user insight.",
     ],
   },
   {
-    title: "Senior Digital Content & Customer Manager",
+    title: "Senior Product & Customer Manager",
     company: "Philip Morris International",
     location: "Auckland",
     period: "Mar 2019 – Jan 2020",
     bullets: [
-      "Owned B2C digital marketing transformation of IQOS.co.nz — delivering an integrated e-commerce, CRM, and customer journey platform from end to end.",
-      "Designed segmented lead-generation funnels and Salesforce-powered automated nurture flows, improving lead quality and post-lead conversion across both sales and support channels.",
-      "Built and optimised customer journeys across acquisition, onboarding, and retention touchpoints — coordinating content, UX, webchat, and EDM to deliver a cohesive experience.",
-      "Managed agency and technology vendor relationships, overseeing performance against delivery milestones within a complex stakeholder environment.",
+      "Led digital transformation of IQOS.co.nz including Salesforce CRM integration, CS Cart e-commerce, and webchat platform — managing multiple matrixed stakeholders across marketing, tech, and customer service.",
+      "Designed segmented customer journeys improving lead quality and post-lead conversion across support and sales flows.",
+      "Developed wireframes, site maps, and user journeys aligned with UX/UI best practices — translating business requirements into scoped digital solutions.",
+      "Ran project plans, timelines, and scope definitions; coordinated dev teams and external agencies through stand-ups and WIP meetings.",
     ],
   },
   {
@@ -117,7 +122,11 @@ export const experience = [
     location: "Auckland",
     period: "Jul 2020 – Jan 2021",
     bullets: [
-      "Delivered government digital programmes including site builds, EDM campaigns, and platform enhancements; facilitated cross-agency workshops and managed compliance, schedule, and budget.",
+      "Delivered government digital projects including website development (Drupal, WordPress), EDM campaigns, and platform enhancements for public-facing communications.",
+      "Facilitated stakeholder workshops across diverse groups, capturing technical and business requirements for complex platform work.",
+      "Managed project budgets and schedules; delivered WCAG 2.0-compliant websites within scope.",
+      "Developed wireframes, site maps, and user journeys aligned with UX/UI best practices for citizen-facing digital services.",
+      "Acted as day-to-day contact for cross-agency stakeholders, providing updates, managing expectations, and resolving blockers quickly.",
     ],
   },
   {
@@ -137,6 +146,9 @@ export const experience = [
     period: "Jul 2017 – Nov 2017",
     bullets: [
       "Delivered SEO, paid social, and EDM campaigns across Nestlé's FMCG brand portfolio; managed web content, agency performance, and end-to-end digital marketing execution.",
+      "Oversaw end-to-end website project delivery across WordPress, WooCommerce, and corporate sites — translating client requirements into scoped website solutions aligned with business goals.",
+      "Supported proposal development by assisting the sales team with scope definition, delivery assumptions, budgets, and schedules.",
+      "Acted as day-to-day client contact providing updates and managing expectations; managed dev team, ran stand-ups and client WIP meetings using Monday.com and Teams.",
     ],
   },
   {
@@ -240,7 +252,7 @@ export const resumeCTA = {
 export const contact = {
   headline: "Let's Connect",
   subtext:
-    "I'm open to product, digital transformation, and delivery roles in Auckland or remote. If you think we'd be a good fit, I'd love to hear from you.",
+    "I'm open to Senior Digital Project Manager roles in Auckland or remote — CMS migrations, AEM platforms, or mobile app delivery. If you think we'd be a good fit, I'd love to hear from you.",
   linkedin: profile.linkedin,
 };
 
