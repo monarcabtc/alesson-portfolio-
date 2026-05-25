@@ -186,45 +186,85 @@ export const projects = [
 ];
 
 export const skills = {
-  "Product & Delivery": [
-    "Product Roadmapping",
-    "Backlog Management",
-    "Agile Delivery",
-    "Stakeholder Engagement",
-    "Discovery & Definition",
-    "Process Improvement",
-    "Cross-Functional Collaboration",
+  "Programme & Delivery": [
+    "AI Adoption & Governance in enterprise programmes",
+    "LLM Evaluation & Risk Management",
+    "Customer Journey Mapping",
+    "OKR & KPI Definition",
+    "Vendor & Agency Management",
+    "Budget Forecasting & Resource Planning",
+    "RFP / SOW writing",
+    "WCAG 2.2 Compliance",
+    "GDPR & Privacy by Design",
+    "Localisation & Multi-Market Delivery",
   ],
-  "Digital & UX": [
-    "Information Architecture",
-    "Content Strategy",
-    "UX Writing",
-    "User Journeys",
-    "Prototyping",
-    "Accessibility (WCAG 2.1)",
-    "SEO & AI-Readiness",
+  "Soft Skills": [
+    "Cross-functional leadership",
+    "Executive stakeholder communication",
+    "Workshop facilitation",
+    "Coaching & mentoring",
+    "Decision-making under ambiguity",
+    "Cross-cultural collaboration (5 fluent languages · NZ / AU / FR / BE)",
+    "Industry-switching adaptability (insurance, consumer tech, government, FMCG, finance)",
   ],
-  "Tools & Platforms": [
-    "Adobe Experience Manager",
-    "SilverStripe",
-    "WordPress",
-    "Adobe Analytics",
-    "Vercel",
-    "Figma",
+};
+
+export const tools = {
+  "Project & Delivery": [
     "Jira",
     "Confluence",
-    "Google Analytics",
-    "Claude AI",
+    "Asana",
+    "Monday",
+    "Notion",
+    "ClickUp",
+    "Microsoft Project",
   ],
-  "Business & Communication": [
-    "Stakeholder Management",
-    "Workshop Facilitation",
-    "Editorial Governance",
-    "Brand Standards",
-    "Data-Led Optimisation",
-    "CRM & Salesforce",
-    "Agency Management",
+  "Collaboration": ["Slack", "Microsoft Teams", "Miro"],
+  "CMS": [
+    "Adobe Experience Manager",
+    "Drupal",
+    "Sitecore",
+    "Sanity",
+    "WordPress",
+    "SilverStripe",
   ],
+  "Analytics": ["Google Analytics", "Adobe Analytics"],
+  "CRM": ["Salesforce", "HubSpot", "Dynamics 365"],
+  "Documentation": ["Confluence", "SharePoint"],
+  "Productivity AI": [
+    "ChatGPT",
+    "Microsoft Copilot",
+    "Claude",
+    "Gemini",
+    "GitHub Copilot",
+  ],
+};
+
+export const technicalFluency = {
+  intro:
+    "Engineering-side literacy so I can scope with developers, not just to them.",
+  groups: {
+    "Web": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    "Data & Infrastructure": ["Supabase", "Postgres", "Cloudflare", "Vercel"],
+    "Integrations": [
+      "Stripe",
+      "Resend",
+      "Twilio",
+      "Calendly / Cal.com",
+      "n8n",
+      "Zapier",
+      "Make",
+    ],
+    "AI / LLM": [
+      "Anthropic API (Claude)",
+      "OpenAI API",
+      "Vercel AI SDK",
+      "Vercel AI Gateway",
+      "MCP",
+      "ElevenLabs",
+      "Whisper",
+    ],
+  },
 };
 
 export const languages = [

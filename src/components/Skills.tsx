@@ -1,13 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { skills } from "@/data/content";
+import { tools } from "@/data/content";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 export default function Skills() {
   const { ref, isInView } = useScrollAnimation();
 
-  const categories = Object.entries(skills);
+  const categories = Object.entries(tools);
 
   return (
     <section id="skills" className="relative py-16 md:py-20">

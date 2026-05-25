@@ -1,4 +1,4 @@
-import { profile, experience, skills, education, languages, siteConfig } from "@/data/content";
+import { profile, experience, skills, tools, technicalFluency, education, languages, siteConfig } from "@/data/content";
 import PrintButton from "./PrintButton";
 import type { Metadata } from "next";
 
@@ -44,7 +44,7 @@ export default function ResumePage() {
         <section className="cv-section">
           <h2 className="cv-section-title">Profile</h2>
           <p className="cv-summary">
-            Senior Digital Project Manager with 15+ years delivering complex digital programmes across insurance, consumer tech, government, FMCG, and financial services — in New Zealand, Australia, France, and globally. Expert in CMS migrations (Drupal → AEM), mobile app delivery, global product launches, and matrixed stakeholder management. Consistently turns ambiguous programmes into predictable, on-time delivery.
+            Senior Digital Project Manager with 15+ years delivering complex digital programmes across insurance, consumer tech, government, FMCG, and financial services — in New Zealand, Australia, France, and globally. Experience spans the full digital portfolio — app and website delivery, digital marketing campaigns, CMS and CRM migrations, global product launches, and matrixed stakeholder management. Consistently turns ambiguous programmes into predictable, on-time delivery.
           </p>
         </section>
 
@@ -75,6 +75,33 @@ export default function ResumePage() {
           <h2 className="cv-section-title">Skills</h2>
           <div className="cv-skills-grid">
             {Object.entries(skills).map(([category, items]) => (
+              <div key={category} className="cv-skill-group">
+                <h3 className="cv-skill-category">{category}</h3>
+                <p className="cv-skill-items">{items.join(" · ")}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Tools — two columns */}
+        <section className="cv-section cv-skills-section">
+          <h2 className="cv-section-title">Tools</h2>
+          <div className="cv-skills-grid">
+            {Object.entries(tools).map(([category, items]) => (
+              <div key={category} className="cv-skill-group">
+                <h3 className="cv-skill-category">{category}</h3>
+                <p className="cv-skill-items">{items.join(" · ")}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Technical Fluency — two columns */}
+        <section className="cv-section cv-skills-section">
+          <h2 className="cv-section-title">Technical Fluency</h2>
+          <p className="cv-fluency-intro">{technicalFluency.intro}</p>
+          <div className="cv-skills-grid">
+            {Object.entries(technicalFluency.groups).map(([category, items]) => (
               <div key={category} className="cv-skill-group">
                 <h3 className="cv-skill-category">{category}</h3>
                 <p className="cv-skill-items">{items.join(" · ")}</p>
@@ -298,6 +325,14 @@ export default function ResumePage() {
         .cv-skill-items {
           font-size: 9pt;
           color: #444;
+          line-height: 1.5;
+        }
+
+        .cv-fluency-intro {
+          font-size: 9pt;
+          color: #666;
+          font-style: italic;
+          margin-bottom: 10px;
           line-height: 1.5;
         }
 
