@@ -105,6 +105,18 @@ export const experience = [
     ],
   },
   {
+    title: "Founder & Owner",
+    company: "BlackTrading",
+    location: "Worldwide (Remote)",
+    period: "Jun 2021 – Jul 2022",
+    bullets: [
+      "Founded and ran a crypto trading and advisory business, managing portfolios exceeding $3M for clients seeking to navigate DeFi, web3, and the broader digital-asset landscape.",
+      "Advised micro and small businesses on adopting and understanding digital currencies and stablecoins, translating complex crypto concepts into practical, client-ready guidance.",
+      "Built and managed client relationships, onboarding, and delivery workflows end-to-end using Zoho as the CRM and project management platform.",
+      "Owned all aspects of the business — strategy, client acquisition, portfolio oversight, and reporting — operating independently across global markets and time zones.",
+    ],
+  },
+  {
     title: "Senior Product & Customer Manager",
     company: "Philip Morris International",
     location: "Auckland",
