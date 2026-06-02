@@ -8,7 +8,7 @@ export const siteConfig = {
   title: "Alesson Souza | Senior Digital Project Manager",
   description:
     "Senior Digital Project Manager delivering CMS migrations, AEM platforms, and mobile apps across NZ and globally. 15+ years of matrixed delivery.",
-  url: "https://alessonsouza.com",
+  url: "https://www.alesson.io",
   ogImage: "/og-image.jpg",
 };
 
@@ -43,7 +43,7 @@ export const about = {
   paragraphs: [
     "I'm a Senior Digital Project Manager with 15+ years delivering complex digital programmes across insurance, consumer tech, government, FMCG, and financial services — in New Zealand, Australia, France, and globally.",
     "I operate at the pointy end of delivery: owning live backlogs, managing staged rollouts, coordinating matrixed stakeholders, and holding the line on scope, budget, and schedule. From enterprise CMS migrations and AEM platforms to mobile apps and global web experiences, I'm the person teams rely on to turn ambiguous programmes into predictable delivery.",
-    "My work spans end-to-end platform migrations (Drupal → AEM), global product launches (Samsung Trygalaxy across 30+ markets), CRM and e-commerce integrations (Salesforce, CS Cart), and public-sector digital delivery under WCAG 2.0 compliance. I bring strong stakeholder management, sharp communication, and the multilingual, international perspective that helps me operate across cultures and disciplines.",
+    "My work spans end-to-end platform migrations (Drupal → AEM), global product launches (Samsung Trygalaxy across 30+ markets), CRM and e-commerce integrations (Salesforce, CS Cart), and public-sector digital delivery under WCAG 2.1 AA compliance. I bring strong stakeholder management, sharp communication, and the multilingual, international perspective that helps me operate across cultures and disciplines.",
     "Outside of work, I'm genuinely curious about technology — from vibe coding side projects and experimenting with AI tools, to following crypto markets and financial trading. It keeps me sharp, commercially aware, and always learning.",
   ],
 };
@@ -83,7 +83,7 @@ export const experience = [
     period: "Jan 2024 – Jan 2025",
     bullets: [
       "Led end-to-end delivery of a full CMS platform migration — Drupal to Adobe Experience Manager (AEM) — across all IAG brands in New Zealand and Australia.",
-      "Proactively identified and mitigated risks across content migration, WCAG 2.0 compliance, and accessibility, maintaining delivery quality throughout.",
+      "Proactively identified and mitigated risks across content migration, WCAG 2.1 AA compliance, and accessibility, maintaining delivery quality throughout.",
       "Managed multiple competing stakeholder groups (marketing, compliance, legal, development) in a matrixed environment with limited direct authority — relied on influence and clear communication to drive alignment.",
       "Owned and prioritised a live digital backlog in Jira, maintaining consistent delivery cadence under tight timelines and staged deployment schedules.",
       "Operated at the pointy end of delivery, balancing platform governance, escalation management, and day-to-day production across public-facing sites.",
@@ -117,6 +117,19 @@ export const experience = [
     ],
   },
   {
+    title: "Senior Digital Project Manager",
+    company: "Dept. of Internal Affairs (NZ Government)",
+    location: "Auckland",
+    period: "Jul 2020 – Jan 2021",
+    bullets: [
+      "Delivered government digital projects including website development (Drupal, WordPress), EDM campaigns, and platform enhancements for public-facing communications.",
+      "Facilitated stakeholder workshops across diverse groups, capturing technical and business requirements for complex platform work.",
+      "Managed project budgets and schedules; delivered WCAG 2.1 AA-compliant websites within scope.",
+      "Developed wireframes, site maps, and user journeys aligned with UX/UI best practices for citizen-facing digital services.",
+      "Acted as day-to-day contact for cross-agency stakeholders, providing updates, managing expectations, and resolving blockers quickly.",
+    ],
+  },
+  {
     title: "Senior Product & Customer Manager",
     company: "Philip Morris International",
     location: "Auckland",
@@ -126,19 +139,6 @@ export const experience = [
       "Designed segmented customer journeys improving lead quality and post-lead conversion across support and sales flows.",
       "Developed wireframes, site maps, and user journeys aligned with UX/UI best practices — translating business requirements into scoped digital solutions.",
       "Ran project plans, timelines, and scope definitions; coordinated dev teams and external agencies through stand-ups and WIP meetings.",
-    ],
-  },
-  {
-    title: "Senior Digital Project Manager",
-    company: "Dept. of Internal Affairs (NZ Government)",
-    location: "Auckland",
-    period: "Jul 2020 – Jan 2021",
-    bullets: [
-      "Delivered government digital projects including website development (Drupal, WordPress), EDM campaigns, and platform enhancements for public-facing communications.",
-      "Facilitated stakeholder workshops across diverse groups, capturing technical and business requirements for complex platform work.",
-      "Managed project budgets and schedules; delivered WCAG 2.0-compliant websites within scope.",
-      "Developed wireframes, site maps, and user journeys aligned with UX/UI best practices for citizen-facing digital services.",
-      "Acted as day-to-day contact for cross-agency stakeholders, providing updates, managing expectations, and resolving blockers quickly.",
     ],
   },
   {
@@ -180,7 +180,7 @@ export const projects = [
     description:
       "Samsung's interactive web experience that lets users explore Galaxy device interfaces directly from any browser. A global-scale digital product serving millions of visitors across 30+ markets — showcasing Galaxy UI, features, and ecosystem before purchase.",
     tags: ["Global Product", "Interactive Web", "Samsung", "UX at Scale"],
-    role: "Senior Digital Content Manager — Global, content strategy, multi-market delivery",
+    role: "Digital Project Manager — Global, content strategy, multi-market delivery",
     highlight:
       "A real-world product reaching 490,000+ daily visitors — demonstrating how content strategy and digital delivery work at genuine global scale.",
     video: "/trygalaxy.mp4",
@@ -206,7 +206,7 @@ export const skills = {
     "Vendor & Agency Management",
     "Budget Forecasting & Resource Planning",
     "RFP / SOW writing",
-    "WCAG 2.2 Compliance",
+    "WCAG 2.1 AA Compliance",
     "GDPR & Privacy by Design",
     "Localisation & Multi-Market Delivery",
   ],

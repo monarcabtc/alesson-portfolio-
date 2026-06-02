@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://alessonsouza.com/sitemap.xml",
+    sitemap: "https://www.alesson.io/sitemap.xml",
   };
 }
