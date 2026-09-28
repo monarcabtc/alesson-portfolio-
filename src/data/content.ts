@@ -77,6 +77,20 @@ export const expertise = [
 
 export const experience = [
   {
+    title: "Digital Platform Specialist",
+    company: "Fonterra (NZMP)",
+    location: "Auckland",
+    period: "Jul 2026 – Present",
+    bullets: [
+      "Own the NZMP website on Adobe Experience Manager (AEM). NZMP is Fonterra's global B2B dairy ingredients brand, selling to food and nutrition manufacturers in 130+ countries.",
+      "Led an evidence-based redesign of the site navigation, taking it from analytics review to an agreed direction, and now mapping it page by page with content owners and the digital agency.",
+      "Audited the global News library (~290 articles) and delivered a keep / archive / merge plan that slims the live section while protecting SEO value, with no mass page deletions.",
+      "Wrote AEM authoring guides for priority product categories, sequencing content updates into existing page components ahead of layout changes so work isn't done twice.",
+      "Built automated release checks, including SEO and canonical-tag testing across 600+ pages and an image inventory of the product catalogue.",
+      "Redesigned the Contact Us and product-enquiry journey and planned a market-specific entry page for an international site, working across Brand, product owners, regional market teams, customer service, IT, Procurement and the lead digital agency.",
+    ],
+  },
+  {
     title: "Senior Digital Product Content Manager (AEM)",
     company: "IAG New Zealand",
     location: "Auckland",

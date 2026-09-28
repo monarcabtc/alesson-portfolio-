@@ -387,7 +387,10 @@ export default function ResumePage() {
 
           .cv-name { font-size: 20pt; }
 
-          .cv-job { page-break-inside: avoid; }
+          /* Let long roles continue onto the next page, but never strand a header */
+          .cv-job { page-break-inside: auto; }
+          .cv-job-header { page-break-after: avoid; }
+          .cv-bullets li { page-break-inside: avoid; }
 
           .cv-skills-section { page-break-inside: avoid; }
 
