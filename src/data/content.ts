@@ -96,7 +96,7 @@ export const experience = [
     location: "Auckland",
     period: "Jan 2024 – Jan 2025",
     bullets: [
-      "Led end-to-end delivery of a full website replatforming — Drupal to Adobe Experience Manager (AEM) — across all IAG brands in New Zealand and Australia, from planning through staged go-live.",
+      "Led end-to-end delivery of a full website replatforming — Drupal to Adobe Experience Manager (AEM) — across all IAG brands in NZ and Australia, from planning through staged go-live and hypercare.",
       "Identified and mitigated delivery risks across content migration and WCAG 2.1 AA accessibility, maintaining quality throughout.",
       "Managed multiple competing stakeholder groups (marketing, compliance, legal, development) in a matrixed environment with limited direct authority — relied on influence and clear communication to drive alignment.",
       "Ran Agile delivery from a live Jira backlog and coordinated user acceptance testing (UAT) with business stakeholders ahead of each staged deployment, keeping a consistent cadence under tight timelines.",
@@ -216,7 +216,7 @@ export const skills = {
     "Website Replatforming & CMS Migration",
     "Content Migration & SEO Preservation",
     "Agile, Waterfall & Hybrid Delivery",
-    "User Acceptance Testing (UAT)",
+    "UAT, Go-Live & Hypercare",
     "Risk, Issue & Dependency Management",
     "Vendor & Agency Management",
     "Budget Forecasting & Resource Planning",
