@@ -19,7 +19,7 @@ export const profile = {
   // Contact details are obfuscated to prevent scraping
   // The site displays them in a way that's human-readable but not easily crawled
   email: { user: "souzalesson", domain: "gmail.com" },
-  phone: { display: "Available on request" },
+  phone: { display: "020 4064 0839", href: "tel:+642040640839" },
   linkedin: "https://www.linkedin.com/in/alessonsouza",
   resumeFile: "/Alesson_Souza_Resume.pdf",
 };

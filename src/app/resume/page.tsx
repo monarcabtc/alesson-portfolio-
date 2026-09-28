@@ -36,7 +36,7 @@ export default function ResumePage() {
               </a>
             </span>
             <span>
-              <a href="https://www.alesson.io">alesson.io</a>
+              <a href={profile.phone.href}>{profile.phone.display}</a> · <a href="https://www.alesson.io">alesson.io</a>
             </span>
           </div>
         </header>
