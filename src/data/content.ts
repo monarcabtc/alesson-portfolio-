@@ -5,9 +5,9 @@
 // ============================================================
 
 export const siteConfig = {
-  title: "Alesson Souza | Senior Digital Project Manager",
+  title: "Alesson Souza | Digital Platform Manager",
   description:
-    "Senior Digital Project Manager delivering CMS migrations, AEM platforms, and mobile apps across NZ and globally. 15+ years of matrixed delivery.",
+    "Digital Platform Manager delivering CMS migrations, AEM platforms, and mobile apps across NZ and globally. 15+ years of matrixed delivery.",
   url: "https://www.alesson.io",
   ogImage: "/og-image.jpg",
 };
@@ -19,13 +19,13 @@ export const profile = {
   // Contact details are obfuscated to prevent scraping
   // The site displays them in a way that's human-readable but not easily crawled
   email: { user: "souzalesson", domain: "gmail.com" },
-  phone: { display: "Available on request" },
+  phone: { display: "020 4064 0839", href: "tel:+642040640839" },
   linkedin: "https://www.linkedin.com/in/alessonsouza",
   resumeFile: "/Alesson_Souza_Resume.pdf",
 };
 
 export const hero = {
-  headline: "Senior Digital\nProject Manager",
+  headline: "Digital\nPlatform Manager",
   subheadline:
     "I deliver complex digital programmes end-to-end — from CMS migrations and AEM platforms to mobile apps — bringing clarity, cadence, and cross-functional alignment to every delivery.",
   cta1: { label: "Download Resume", href: "/resume" },
@@ -41,7 +41,7 @@ export const bigStatement = {
 export const about = {
   title: "About",
   paragraphs: [
-    "I'm a Senior Digital Project Manager with 15+ years delivering complex digital programmes across insurance, consumer tech, government, FMCG, and financial services — in New Zealand, Australia, France, and globally.",
+    "I'm a Digital Platform Manager with 15+ years delivering complex digital programmes across insurance, consumer tech, government, FMCG, and financial services — in New Zealand, Australia, France, and globally.",
     "I operate at the pointy end of delivery: owning live backlogs, managing staged rollouts, coordinating matrixed stakeholders, and holding the line on scope, budget, and schedule. From enterprise CMS migrations and AEM platforms to mobile apps and global web experiences, I'm the person teams rely on to turn ambiguous programmes into predictable delivery.",
     "My work spans end-to-end platform migrations (Drupal → AEM), global product launches (Samsung Trygalaxy across 30+ markets), CRM and e-commerce integrations (Salesforce, CS Cart), and public-sector digital delivery under WCAG 2.1 AA compliance. I bring strong stakeholder management, sharp communication, and the multilingual, international perspective that helps me operate across cultures and disciplines.",
     "Outside of work, I'm genuinely curious about technology — from vibe coding side projects and experimenting with AI tools, to following crypto markets and financial trading. It keeps me sharp, commercially aware, and always learning.",
@@ -77,7 +77,7 @@ export const expertise = [
 
 export const experience = [
   {
-    title: "Digital Platform Specialist",
+    title: "Digital Platform Manager",
     company: "Fonterra (NZMP)",
     location: "Auckland",
     period: "Jul 2026 – Present",
@@ -96,11 +96,11 @@ export const experience = [
     location: "Auckland",
     period: "Jan 2024 – Jan 2025",
     bullets: [
-      "Led end-to-end delivery of a full CMS platform migration — Drupal to Adobe Experience Manager (AEM) — across all IAG brands in New Zealand and Australia.",
-      "Proactively identified and mitigated risks across content migration, WCAG 2.1 AA compliance, and accessibility, maintaining delivery quality throughout.",
+      "Led end-to-end delivery of a full website replatforming — Drupal to Adobe Experience Manager (AEM) — across all IAG brands in NZ and Australia, from planning through staged go-live and hypercare.",
+      "Identified and mitigated delivery risks across content migration and WCAG 2.1 AA accessibility, maintaining quality throughout.",
       "Managed multiple competing stakeholder groups (marketing, compliance, legal, development) in a matrixed environment with limited direct authority — relied on influence and clear communication to drive alignment.",
-      "Owned and prioritised a live digital backlog in Jira, maintaining consistent delivery cadence under tight timelines and staged deployment schedules.",
-      "Operated at the pointy end of delivery, balancing platform governance, escalation management, and day-to-day production across public-facing sites.",
+      "Ran Agile delivery from a live Jira backlog and coordinated user acceptance testing (UAT) with business stakeholders ahead of each staged deployment, keeping a consistent cadence under tight timelines.",
+      "Ran platform governance and escalation management while keeping day-to-day production running across public-facing sites throughout the transition.",
     ],
   },
   {
@@ -110,10 +110,10 @@ export const experience = [
     period: "May 2023 – Oct 2023",
     bullets: [
       "Oversaw global delivery of Trygalaxy.com, Samsung's flagship web experience — managing 30+ country-specific versions with tight timelines and complex stakeholder dependencies.",
-      "Delivered staged rollout with 90+ localised versions, achieving 490,000+ daily visitors and over 23 million total visits since launch.",
+      "Coordinated UAT and a staged rollout of 90+ localised versions, achieving 490,000+ daily visitors and over 23 million total visits since launch.",
       "Coordinated API integrations (analytics, CRM, localisation platforms) and managed external vendor performance and deliverables.",
       "Managed workflows and handoffs across designers, developers, and content teams using Jira and Confluence to maintain clarity and cadence across squads.",
-      "Ran internal stand-ups and cross-team WIP meetings; monitored dependencies and actively managed delivery risks across concurrent workstreams.",
+      "Ran Agile stand-ups and cross-team WIP meetings; monitored dependencies and actively managed delivery risks across concurrent workstreams.",
       "Developed detailed project plans, timelines, and risk registers — monitoring dependencies across country markets and external vendor deliverables.",
       "Defined KPI dashboards; drove continuous CRO through funnel analysis and user insight.",
     ],
@@ -213,16 +213,21 @@ export const projects = [
 
 export const skills = {
   "Programme & Delivery": [
-    "AI Adoption & Governance in enterprise programmes",
-    "LLM Evaluation & Risk Management",
-    "Customer Journey Mapping",
-    "OKR & KPI Definition",
+    "Website Replatforming & CMS Migration",
+    "Content Migration & SEO Preservation",
+    "Agile, Waterfall & Hybrid Delivery",
+    "UAT, Go-Live & Hypercare",
+    "Risk, Issue & Dependency Management",
     "Vendor & Agency Management",
     "Budget Forecasting & Resource Planning",
     "RFP / SOW writing",
     "WCAG 2.1 AA Compliance",
-    "GDPR & Privacy by Design",
+    "Customer Journey Mapping",
+    "OKR & KPI Definition",
     "Localisation & Multi-Market Delivery",
+    "GDPR & Privacy by Design",
+    "Enterprise AI Adoption & Governance",
+    "LLM Evaluation & Risk Management",
   ],
   "Soft Skills": [
     "Cross-functional leadership",
@@ -323,7 +328,7 @@ export const resumeCTA = {
 export const contact = {
   headline: "Let's Connect",
   subtext:
-    "I'm open to Senior Digital Project Manager roles in Auckland or remote — CMS migrations, AEM platforms, or mobile app delivery. If you think we'd be a good fit, I'd love to hear from you.",
+    "I'm open to Digital Platform Manager and Senior Digital Project Manager roles in Auckland or remote — CMS migrations, AEM platforms, or mobile app delivery. If you think we'd be a good fit, I'd love to hear from you.",
   linkedin: profile.linkedin,
 };
 
