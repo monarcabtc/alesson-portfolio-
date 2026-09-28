@@ -5,9 +5,9 @@
 // ============================================================
 
 export const siteConfig = {
-  title: "Alesson Souza | Senior Digital Project Manager",
+  title: "Alesson Souza | Digital Platform Manager",
   description:
-    "Senior Digital Project Manager delivering CMS migrations, AEM platforms, and mobile apps across NZ and globally. 15+ years of matrixed delivery.",
+    "Digital Platform Manager delivering CMS migrations, AEM platforms, and mobile apps across NZ and globally. 15+ years of matrixed delivery.",
   url: "https://www.alesson.io",
   ogImage: "/og-image.jpg",
 };
@@ -25,7 +25,7 @@ export const profile = {
 };
 
 export const hero = {
-  headline: "Senior Digital\nProject Manager",
+  headline: "Digital\nPlatform Manager",
   subheadline:
     "I deliver complex digital programmes end-to-end — from CMS migrations and AEM platforms to mobile apps — bringing clarity, cadence, and cross-functional alignment to every delivery.",
   cta1: { label: "Download Resume", href: "/resume" },
@@ -41,7 +41,7 @@ export const bigStatement = {
 export const about = {
   title: "About",
   paragraphs: [
-    "I'm a Senior Digital Project Manager with 15+ years delivering complex digital programmes across insurance, consumer tech, government, FMCG, and financial services — in New Zealand, Australia, France, and globally.",
+    "I'm a Digital Platform Manager with 15+ years delivering complex digital programmes across insurance, consumer tech, government, FMCG, and financial services — in New Zealand, Australia, France, and globally.",
     "I operate at the pointy end of delivery: owning live backlogs, managing staged rollouts, coordinating matrixed stakeholders, and holding the line on scope, budget, and schedule. From enterprise CMS migrations and AEM platforms to mobile apps and global web experiences, I'm the person teams rely on to turn ambiguous programmes into predictable delivery.",
     "My work spans end-to-end platform migrations (Drupal → AEM), global product launches (Samsung Trygalaxy across 30+ markets), CRM and e-commerce integrations (Salesforce, CS Cart), and public-sector digital delivery under WCAG 2.1 AA compliance. I bring strong stakeholder management, sharp communication, and the multilingual, international perspective that helps me operate across cultures and disciplines.",
     "Outside of work, I'm genuinely curious about technology — from vibe coding side projects and experimenting with AI tools, to following crypto markets and financial trading. It keeps me sharp, commercially aware, and always learning.",
@@ -77,7 +77,7 @@ export const expertise = [
 
 export const experience = [
   {
-    title: "Digital Platform Specialist",
+    title: "Digital Platform Manager",
     company: "Fonterra (NZMP)",
     location: "Auckland",
     period: "Jul 2026 – Present",
@@ -327,7 +327,7 @@ export const resumeCTA = {
 export const contact = {
   headline: "Let's Connect",
   subtext:
-    "I'm open to Senior Digital Project Manager roles in Auckland or remote — CMS migrations, AEM platforms, or mobile app delivery. If you think we'd be a good fit, I'd love to hear from you.",
+    "I'm open to Digital Platform Manager and Senior Digital Project Manager roles in Auckland or remote — CMS migrations, AEM platforms, or mobile app delivery. If you think we'd be a good fit, I'd love to hear from you.",
   linkedin: profile.linkedin,
 };
 

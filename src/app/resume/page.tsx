@@ -26,7 +26,7 @@ export default function ResumePage() {
         <header className="cv-header">
           <div>
             <h1 className="cv-name">{profile.name}</h1>
-            <p className="cv-title">Senior Digital Project Manager</p>
+            <p className="cv-title">Digital Platform Manager</p>
           </div>
           <div className="cv-contact">
             <span>{profile.location}</span>
@@ -45,7 +45,7 @@ export default function ResumePage() {
         <section className="cv-section">
           <h2 className="cv-section-title">Profile</h2>
           <p className="cv-summary">
-            Senior Digital Project Manager with 15+ years delivering complex digital programmes across insurance, consumer tech, government, FMCG, and financial services — in New Zealand, Australia, France, and globally. Specialises in website replatforming and CMS implementation (Drupal to AEM), content migration with SEO preservation, and integration-heavy delivery across CRM, e-commerce, and analytics. Manages scope, budget, risk, and dependencies across agencies, vendors, and in-house teams using Agile, Waterfall, and hybrid methods, turning ambiguous programmes into predictable, on-time delivery.
+            Digital Platform Manager with 15+ years delivering complex digital programmes across insurance, consumer tech, government, FMCG, and financial services — in New Zealand, Australia, France, and globally. Specialises in website replatforming and CMS implementation (Drupal to AEM), content migration with SEO preservation, and integration-heavy delivery across CRM, e-commerce, and analytics. Manages scope, budget, risk, and dependencies across agencies, vendors, and in-house teams using Agile, Waterfall, and hybrid methods, turning ambiguous programmes into predictable, on-time delivery.
           </p>
         </section>
 

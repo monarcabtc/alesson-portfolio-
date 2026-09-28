@@ -39,7 +39,7 @@ export const metadata: Metadata = {
         url: siteConfig.ogImage,
         width: 1200,
         height: 630,
-        alt: "Alesson Souza — Senior Digital Project Manager Portfolio",
+        alt: "Alesson Souza — Digital Platform Manager Portfolio",
       },
     ],
   },
@@ -61,6 +61,8 @@ export const metadata: Metadata = {
     },
   },
   keywords: [
+    "Digital Platform Manager",
+    "Digital Platform Manager New Zealand",
     "Senior Digital Project Manager",
     "Digital Project Manager New Zealand",
     "CMS migration project manager",
@@ -77,7 +79,7 @@ const jsonLd = {
   "@type": "Person",
   name: profile.name,
   url: siteConfig.url,
-  jobTitle: "Senior Digital Project Manager",
+  jobTitle: "Digital Platform Manager",
   description: siteConfig.description,
   email: `${profile.email.user}@${profile.email.domain}`,
   address: {
