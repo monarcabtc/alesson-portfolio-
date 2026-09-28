@@ -96,11 +96,11 @@ export const experience = [
     location: "Auckland",
     period: "Jan 2024 – Jan 2025",
     bullets: [
-      "Led end-to-end delivery of a full CMS platform migration — Drupal to Adobe Experience Manager (AEM) — across all IAG brands in New Zealand and Australia.",
-      "Proactively identified and mitigated risks across content migration, WCAG 2.1 AA compliance, and accessibility, maintaining delivery quality throughout.",
+      "Led end-to-end delivery of a full website replatforming — Drupal to Adobe Experience Manager (AEM) — across all IAG brands in New Zealand and Australia, from planning through staged go-live.",
+      "Identified and mitigated delivery risks across content migration and WCAG 2.1 AA accessibility, maintaining quality throughout.",
       "Managed multiple competing stakeholder groups (marketing, compliance, legal, development) in a matrixed environment with limited direct authority — relied on influence and clear communication to drive alignment.",
       "Owned and prioritised a live digital backlog in Jira, maintaining consistent delivery cadence under tight timelines and staged deployment schedules.",
-      "Operated at the pointy end of delivery, balancing platform governance, escalation management, and day-to-day production across public-facing sites.",
+      "Ran platform governance and escalation management while keeping day-to-day production running across public-facing sites throughout the transition.",
     ],
   },
   {
@@ -213,16 +213,20 @@ export const projects = [
 
 export const skills = {
   "Programme & Delivery": [
-    "AI Adoption & Governance in enterprise programmes",
-    "LLM Evaluation & Risk Management",
-    "Customer Journey Mapping",
-    "OKR & KPI Definition",
+    "Website Replatforming & CMS Migration",
+    "Content Migration & SEO Preservation",
+    "Agile, Waterfall & Hybrid Delivery",
+    "Risk, Issue & Dependency Management",
     "Vendor & Agency Management",
     "Budget Forecasting & Resource Planning",
     "RFP / SOW writing",
     "WCAG 2.1 AA Compliance",
-    "GDPR & Privacy by Design",
+    "Customer Journey Mapping",
+    "OKR & KPI Definition",
     "Localisation & Multi-Market Delivery",
+    "GDPR & Privacy by Design",
+    "Enterprise AI Adoption & Governance",
+    "LLM Evaluation & Risk Management",
   ],
   "Soft Skills": [
     "Cross-functional leadership",
