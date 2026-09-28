@@ -247,7 +247,7 @@ export const tools = {
   ],
   "Collaboration": ["Slack", "Microsoft Teams", "Miro"],
   "CMS": [
-    "Adobe Experience Manager",
+    "Adobe Experience Manager (AEM)",
     "Drupal",
     "Sitecore",
     "Sanity",
@@ -255,6 +255,11 @@ export const tools = {
     "SilverStripe",
   ],
   "Analytics": ["Google Analytics", "Adobe Analytics"],
+  "SEO & GEO": [
+    "Technical SEO",
+    "Content SEO",
+    "GEO (Generative Engine Optimisation)",
+  ],
   "CRM": ["Salesforce", "HubSpot", "Dynamics 365"],
   "Documentation": ["Confluence", "SharePoint"],
   "Productivity AI": [

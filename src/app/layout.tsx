@@ -92,6 +92,8 @@ const jsonLd = {
     "Mobile Apps Management",
     "Adobe Experience Manager",
     "Drupal to AEM Migration",
+    "Search Engine Optimisation (SEO)",
+    "Generative Engine Optimisation (GEO)",
     "Stakeholder Management",
     "Agile Delivery",
   ],

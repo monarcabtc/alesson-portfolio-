@@ -1,6 +1,7 @@
 import { profile, experience, skills, tools, technicalFluency, education, languages, siteConfig } from "@/data/content";
 import PrintButton from "./PrintButton";
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: `Resume — ${profile.name}`,
@@ -17,7 +18,7 @@ export default function ResumePage() {
       {/* Print button — hidden when printing */}
       <div className="no-print print-controls">
         <PrintButton />
-        <a href="/" className="back-link">← Back to portfolio</a>
+        <Link href="/" className="back-link">← Back to portfolio</Link>
       </div>
 
       <div className="cv">
@@ -134,7 +135,8 @@ export default function ResumePage() {
         </div>
       </div>
 
-      <style>{`
+      {/* Raw HTML so React doesn't escape the quotes in font-family values */}
+      <style dangerouslySetInnerHTML={{ __html: `
         * { box-sizing: border-box; margin: 0; padding: 0; }
 
         body {
@@ -396,7 +398,7 @@ export default function ResumePage() {
 
           a { color: inherit !important; text-decoration: none !important; }
         }
-      `}</style>
+      ` }} />
     </div>
   );
 }
